@@ -1,1 +1,126 @@
+# Olympics Data Analysis Project
+
+# Introduction
+This project involves analyzing the Summer Olympics medal dataset from 1976 to 2008. The dataset contains detailed information about medal winners, including attributes like year, city, sport, athlete, gender, country, and medal type. The objectives of this analysis are:
+
+1. To explore trends in medal distribution over the years.
+2. To identify the top-performing countries and athletes.
+3. To analyze gender distribution in medal-winning events.
+4. To conduct sport-wise analysis of medal distribution.
+5. To visualize the data using Python and Power BI.
+
+#Dataset Details
+- Source: A CSV file containing records of medal winners from the Summer Olympics (1976-2008).
+- Columns:
+  - City: Host city of the Olympics.
+  - Year: Year of the Olympics.
+  - Sport: The sport category.
+  - Discipline: Sub-category of the sport.
+  - Event: Specific event within the discipline.
+  - Athlete: Name of the participating athlete.
+  - Gender: Gender of the athlete.
+  - Country_Code: Abbreviation of the country.
+  - Country: Full name of the country.
+  - Event_gender: Gender category of the event.
+  - Medal: Type of medal (Gold, Silver, Bronze).
+
+# Steps
+
+# 1. Data Preparation
+- Imported the dataset using Python.
+- Cleaned the data by:
+  - Removing missing values.
+  - Standardizing column names.
+- Verified data integrity and consistency.
+
+# 2. Exploratory Data Analysis (EDA)
+Performed the following analyses:
+- Medal Trends Over the Years:
+  - Grouped data by year to calculate total medals.
+  - Visualized trends using line charts.
+- Top-Performing Countries:
+  - Identified countries with the highest medal counts.
+  - Created bar charts to display results.
+- Gender Distribution:
+  - Analyzed the gender-wise distribution of medal winners.
+  - Used pie charts for visualization.
+- Sport-Wise Analysis:
+  - Determined the top sports by medal count.
+  - Created horizontal bar charts.
+
+# 3. Data Visualization
+- **Python**: Used matplotlib and seaborn for initial visualizations.
+- **Power BI**: Built interactive dashboards for:
+  - Medal trends over the years.
+  - Top-performing countries.
+  - Gender distribution.
+  - Sport-wise medal analysis.
+
+# 4. Documentation
+- Documented the entire process in this README.
+- Saved Python scripts in the `scripts/` folder.
+- Stored visualizations in the `visualizations/` folder.
+- Created an optional project report in the `documentation/` folder.
+
+# Results
+
+# Insights Derived:
+1. Medal Trends:
+   - Steady increase in the number of medals awarded over the years.
+2. Top Countries:
+   - United States, Soviet Union, and China were consistently top-performing countries.
+3. Gender Distribution:
+   - Male athletes dominated earlier years, but female participation increased significantly over time.
+4. Sport-Wise Trends:
+   - Athletics and swimming were the sports with the highest medal counts.
+
+# Visual Outputs:
+- Line charts showing medal trends.
+- Bar charts for top countries and sports.
+- Pie charts for gender distribution.
+- Interactive Power BI dashboards with filters for year, country, and sport.
+
+# Tools Used
+- Python: pandas, matplotlib, seaborn
+- Power BI: Data visualization and dashboard creation
+- GitHub: Version control and project hosting
+
+# Repository Structure
+
+project-folder/
+|-- datasets/
+|   |-- Summer-Olympic-medals-1976-to-2008.csv
+|-- scripts/
+|   |-- data_analysis.py
+|-- visualizations/
+|   |-- medal_trends.png
+|   |-- top_countries.png
+|-- documentation/
+|   |-- project_report.pdf
+|-- README.md
+
+
+# How to Run
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd project-folder
+   ```
+3. Run the Python scripts:
+   ```bash
+   python scripts/data_analysis.py
+   ```
+4. Open Power BI and load the dataset to view interactive dashboards.
+
+# Future Work
+- Expand the analysis to include Winter Olympics data.
+- Incorporate machine learning models for predictive analysis.
+- Enhance Power BI dashboards with advanced visuals.
+
+# Acknowledgments
+- Dataset source: [Kaggle](https://www.kaggle.com/)
+- Tools: Python, Power BI, GitHub
 
